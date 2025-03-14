@@ -1,23 +1,15 @@
-# Networking
+# Helpful Resources
 
-## Network Layers
+A list of resources I have found helpful!
 
-### Network Layer (L3)
+## [Encryption](./encryption.md)
 
-#### IP (Internet Protocol) - Network Layer
+A list of encryption topics such as RSA, Diffie-Hellman, AES, TLS and more. Lots of videos from Computerphile!
 
-IP routes one packet from a source machine to a destination machine. IP wraps other higher level protocols such as TCP, UDP, etc, which handle routing packets to a specific application/port on the destination machine.
+## [Networking](./networking.md)
 
-### Transport Layer (L4)
+An overview of networking topics including the OSI model
 
-#### TCP (Transmission Control Protocal) - Transport Layer
+## [Software Development Recommended Practices](./software-development-recommended-practices.md)
 
-TCP routes data to a specific port. TCP provides acknowledgements to verify that a packet was recieved by the destination as well as ensures ordering of packets.
-
-#### UDP (User Datagram Protocol) - Transport Layer
-
-UDP is a lightweight protocol that routes a packet to a specific port. UDP does not handle any acknowledgement or ordering of packets.
-
-## TCP/IP
-
-Introduction to TCP/IP and sockets P1: Introducing the protocols and API
+A list of practices that may help to improve your code flow and make your life easier
