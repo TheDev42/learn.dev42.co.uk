@@ -2,11 +2,11 @@
 
 A list of resources I have found helpful!
 
-## [Encryption](./encryption.md)
+## [Encryption](./encryption)
 
 A list of encryption topics such as RSA, Diffie-Hellman, AES, TLS and more. Lots of videos from Computerphile!
 
-## [Networking](./networking.md)
+## [Networking](./networking)
 
 An overview of networking topics including the OSI model
 
