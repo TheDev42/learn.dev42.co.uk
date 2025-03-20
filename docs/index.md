@@ -4,11 +4,11 @@ A list of resources I have found helpful!
 
 ## [Encryption](./encryption)
 
-A list of encryption topics such as RSA, Diffie-Hellman, AES, TLS and more. Lots of videos from Computerphile!
+A list of encryption topics such as RSA, Diffie-Hellman, AES, TLS and more.
 
 ## [Networking](./networking)
 
-An overview of networking topics including the OSI model
+An overview of networking topics including the OSI model, Protocol and Networking Layers
 
 # Working Progress
 
