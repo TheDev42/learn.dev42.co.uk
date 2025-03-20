@@ -1,4 +1,6 @@
-## Network Layers
+## Network Layers And Protocols
+
+##### Network Protocols refer to a set of rules and conventions that define how data is transmitted and received over a network. They establish the methods and procedures for communication between different network devices.
 
 ### Network Layer (L3)
 
