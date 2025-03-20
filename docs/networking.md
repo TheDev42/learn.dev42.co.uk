@@ -1,23 +1,37 @@
-# Networking
-
 ## Network Layers
 
 ### Network Layer (L3)
 
-#### IP (Internet Protocol) - Network Layer
-
-IP routes one packet from a source machine to a destination machine. IP wraps other higher level protocols such as TCP, UDP, etc, which handle routing packets to a specific application/port on the destination machine.
+- IP (Internet Protocol): Routes one packet from a source machine to a destination machine. IP wraps other higher level protocols such as TCP, UDP, etc, which handle routing packets to a specific application/port on the destination machine.
 
 ### Transport Layer (L4)
 
-#### TCP (Transmission Control Protocal) - Transport Layer
+- TCP (Transmission Control Protocal): Routes data to a specific port. TCP provides acknowledgements to verify that a packet was recieved by the destination as well as ensures ordering of packets.
 
-TCP routes data to a specific port. TCP provides acknowledgements to verify that a packet was recieved by the destination as well as ensures ordering of packets.
+- UDP (User Datagram Protocol): A lightweight protocol that routes a packet to a specific port. UDP does not handle any acknowledgement or ordering of packets.
 
-#### UDP (User Datagram Protocol) - Transport Layer
+### Application Layer Protocols
 
-UDP is a lightweight protocol that routes a packet to a specific port. UDP does not handle any acknowledgement or ordering of packets.
+These protocols provide services directly to end-user applications. Some notable application layer protocols are:
+- HTTP (Hypertext Transfer Protocol): Used for accessing web pages.
+- FTP (File Transfer Protocol): Used for transferring files between computers.
 
-## TCP/IP
+## OSI Model
 
-Introduction to TCP/IP and sockets P1: Introducing the protocols and API
+The Open Systems Interconnection (OSI) model describes seven layers that computer systems use to communicate over a network. The OSI model is divided into seven distinct layers, each with specific responsibilities, ranging from physical hardware connections to high-level application interactions.
+
+Each layer of the OSI model interacts with the layer directly above and below it, encapsulating and transmitting data in a structured manner. The OSI model serves as a universal language for networking, providing a common ground for different systems to communicate effectively.
+
+<p align="left">
+	<img src="files/OSI-vs-TCP/IP-models.jpg">
+</p>
+
+### OSI vs. TCP/IP Model
+The Transfer Control Protocol/Internet Protocol (TCP/IP) is older than the OSI model and was created by the US Department of Defense (DoD). A key difference between the models is that TCP/IP is simpler, collapsing several OSI layers into one:
+
+- OSI layers 5, 6, 7 are combined into one Application Layer in TCP/IP
+- OSI layers 1, 2 are combined into one Network Access Layer in TCP/IP – however TCP/IP does not take responsibility for sequencing and acknowledgement functions, leaving these to the underlying transport layer.
+
+Other important differences:
+- TCP/IP is a functional model designed to solve specific communication problems, and which is based on specific, standard protocols. OSI is a generic, protocol-independent model intended to describe all forms of network communication.
+- In TCP/IP, most applications use all the layers, while in OSI simple applications do not use all seven layers. Only layers 1, 2 and 3 are mandatory to enable any data communication.
