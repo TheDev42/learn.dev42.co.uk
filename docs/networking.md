@@ -4,6 +4,10 @@
 
 ##### Network Protocols refer to a set of rules and conventions that define how data is transmitted and received over a network. They establish the methods and procedures for communication between different network devices.
 
+### Data Link (L2)
+
+- MAC
+
 ### Network Layer (L3)
 
 - IP (Internet Protocol): Routes one packet from a source machine to a destination machine. IP wraps other higher level protocols such as TCP, UDP, etc, which handle routing packets to a specific application/port on the destination machine.
@@ -13,6 +17,10 @@
 - TCP (Transmission Control Protocal): Routes data to a specific port. TCP provides acknowledgements to verify that a packet was recieved by the destination as well as ensures ordering of packets.
 
 - UDP (User Datagram Protocol): A lightweight protocol that routes a packet to a specific port. UDP does not handle any acknowledgement or ordering of packets.
+
+### Session Layer (L5)
+
+- SMB
 
 ### Application Layer Protocols
 
