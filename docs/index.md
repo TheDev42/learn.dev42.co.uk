@@ -10,6 +10,10 @@ A list of encryption topics such as RSA, Diffie-Hellman, AES, TLS and more.
 
 An overview of networking topics including the OSI model, Protocol and Networking Layers
 
+## [Hardware](./hardware)
+
+All about hardware
+
 # Working Progress
 
 ## [Software Development Recommended Practices](./software-development-recommended-practices.md)
