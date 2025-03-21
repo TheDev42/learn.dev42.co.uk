@@ -1,4 +1,6 @@
 ## Network Layers And Protocols
+> [!IMPORTANT]
+> This Page Is Still A Working Progress.
 
 ##### Network Protocols refer to a set of rules and conventions that define how data is transmitted and received over a network. They establish the methods and procedures for communication between different network devices.
 
@@ -19,6 +21,8 @@ These protocols provide services directly to end-user applications. Some notable
 - FTP (File Transfer Protocol): Used for transferring files between computers.
 
 ## OSI Model
+> [!NOTE]
+> We Dont Need To Know This For GCSE AQA!
 
 The Open Systems Interconnection (OSI) model describes seven layers that computer systems use to communicate over a network. The OSI model is divided into seven distinct layers, each with specific responsibilities, ranging from physical hardware connections to high-level application interactions.
 
@@ -37,3 +41,6 @@ The Transfer Control Protocol/Internet Protocol (TCP/IP) is older than the OSI m
 Other important differences:
 - TCP/IP is a functional model designed to solve specific communication problems, and which is based on specific, standard protocols. OSI is a generic, protocol-independent model intended to describe all forms of network communication.
 - In TCP/IP, most applications use all the layers, while in OSI simple applications do not use all seven layers. Only layers 1, 2 and 3 are mandatory to enable any data communication.
+
+- [ ] test
+- [x] nope
