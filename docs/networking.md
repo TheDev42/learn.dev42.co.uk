@@ -41,7 +41,6 @@
 - RTCP
 
 - SOCKetS
-- 
 
 ### Presentation Layer (L6)
 
@@ -57,25 +56,25 @@ These protocols provide services directly to end-user applications. Some notable
 
 - DHCP
 
--DNS
+- DNS
 
--HTTPS
+- HTTPS
 
--NFS
+- NFS
 
--POP3
+- POP3
 
--SMTP
+- SMTP
 
--SNMP
+- SNMP
 
--NTP
+- NTP
 
--IRC
+- IRC
 
--SSH
+- SSH
 
--IMAP
+- IMAP
 
 ## OSI Model
 > [!NOTE]
