@@ -4,17 +4,33 @@
 
 ##### Network Protocols refer to a set of rules and conventions that define how data is transmitted and received over a network. They establish the methods and procedures for communication between different network devices.
 
+### Physical Layer (L1)
+
+- USB
+
+- DSL
+
+- 802.11 WiFi
+
+- 1000BASE-T
+
 ### Data Link (L2)
 
 - MAC
+
+- Ethernet
+
+- VLan
 
 ### Network Layer (L3)
 
 - IP (Internet Protocol): Routes one packet from a source machine to a destination machine. IP wraps other higher level protocols such as TCP, UDP, etc, which handle routing packets to a specific application/port on the destination machine.
 
+- NAT
+
 ### Transport Layer (L4)
 
-- TCP (Transmission Control Protocal): Routes data to a specific port. TCP provides acknowledgements to verify that a packet was recieved by the destination as well as ensures ordering of packets.
+- TCP (Transmission Control Protocol): Routes data to a specific port. TCP provides acknowledgements to verify that a packet was recieved by the destination as well as ensures ordering of packets.
 
 - UDP (User Datagram Protocol): A lightweight protocol that routes a packet to a specific port. UDP does not handle any acknowledgement or ordering of packets.
 
@@ -22,11 +38,44 @@
 
 - SMB
 
-### Application Layer Protocols
+- RTCP
+
+- SOCKetS
+- 
+
+### Presentation Layer (L6)
+
+- TLS
+
+- SSL
+
+### Application Layer (L7)
 
 These protocols provide services directly to end-user applications. Some notable application layer protocols are:
-- HTTP (Hypertext Transfer Protocol): Used for accessing web pages.
+- HTTP (Hypertext Transfer Protocol): Used to access web pages.
 - FTP (File Transfer Protocol): Used for transferring files between computers.
+
+- DHCP
+
+-DNS
+
+-HTTPS
+
+-NFS
+
+-POP3
+
+-SMTP
+
+-SNMP
+
+-NTP
+
+-IRC
+
+-SSH
+
+-IMAP
 
 ## OSI Model
 > [!NOTE]
