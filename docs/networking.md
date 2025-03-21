@@ -7,12 +7,33 @@
 ### Physical Layer (L1)
 Transmission of raw bitstreams over physical mediums.
 
-- USB
+- USB (Universal Serial Bus): 
 
-- DSL
+- DSL (Digital subscriber line):
 
-- 802.11 WiFi
+- ADSL (Asymmetric Digital Subscriber Line)
 
+- 802.11 WiFi (wireless fidelity):
+   - 802.11
+      - WiFi 1 Released: 1997 Frequency: 2.4GHz
+   - 802.11b
+      - WiFi 2 Released: 1999 Frequency: 2.4GHz
+   - 802.11a
+      - Wifi 3 Released: 1999 Frequency: 5GHz
+      - Released: 2003 Frequency: 2.4GHz
+   - 802.11g
+      - WiFi 4 Released: 2009 Frequency: 2.4GHz, 5GHz 
+   - 802.11n
+      - WiFi 5 Released: 2013 Frequency: 5GHz 
+   - 802.11ac
+      - WiFi 6 Released: 2021 Frequency: 2.4GHz, 5GHz 
+   - 802.11ax
+      - WiFi 6E Released: 2024 Frequency: 6GHz 
+   - 802.11be
+      - WiFi 7 Released: 2024 Frequency: 2.4GHz, 5GHz, 6GHz
+   - 802.11bn
+      - WiFI 8 Released: a Frequency: 2.4GHz, 5GHz, 6GHz
+ 
 - 1000BASE-T
 
 ### Data Link Layer (L2)
