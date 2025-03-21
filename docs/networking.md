@@ -5,6 +5,7 @@
 ##### Network Protocols refer to a set of rules and conventions that define how data is transmitted and received over a network. They establish the methods and procedures for communication between different network devices.
 
 ### Physical Layer (L1)
+Transmission of raw bitstreams over physical mediums.
 
 - USB
 
@@ -14,7 +15,8 @@
 
 - 1000BASE-T
 
-### Data Link (L2)
+### Data Link Layer (L2)
+Link Layer Protocols: Protocols that work at the network interface level, facilitating data transfer between devices on the same local network, like Ethernet.
 
 - MAC
 
@@ -23,18 +25,21 @@
 - VLan
 
 ### Network Layer (L3)
+Routing data packets through the network.
 
 - IP (Internet Protocol): Routes one packet from a source machine to a destination machine. IP wraps other higher level protocols such as TCP, UDP, etc, which handle routing packets to a specific application/port on the destination machine.
 
 - NAT
 
 ### Transport Layer (L4)
+Transport Protocols: Protocols responsible for end-to-end communication, ensuring complete data transfer. Examples include TCP (Transmission Control Protocol) and UDP (User Datagram Protocol).
 
 - TCP (Transmission Control Protocol): Routes data to a specific port. TCP provides acknowledgements to verify that a packet was recieved by the destination as well as ensures ordering of packets.
 
 - UDP (User Datagram Protocol): A lightweight protocol that routes a packet to a specific port. UDP does not handle any acknowledgement or ordering of packets.
 
 ### Session Layer (L5)
+Maintaining sessions and controlling connections.
 
 - SMB
 
@@ -43,15 +48,17 @@
 - SOCKetS
 
 ### Presentation Layer (L6)
+Translation of data formats and encryption.
 
 - TLS
 
 - SSL
 
 ### Application Layer (L7)
+Application Protocols: These protocols provide services directly to end-users and define how applications interact over a network, such as HTTP for web browsing and SMTP for email.
 
-These protocols provide services directly to end-user applications. Some notable application layer protocols are:
 - HTTP (Hypertext Transfer Protocol): Used to access web pages.
+
 - FTP (File Transfer Protocol): Used for transferring files between computers.
 
 - DHCP
