@@ -19,3 +19,11 @@ All about hardware
 ## [Software Development Recommended Practices](./software-development-recommended-practices.md)
 
 A list of practices that may help to improve your code flow and make your life easier
+
+
+
+
+## Special Thanks To Contributors That Make This Posable!
+<a href="https://github.com/TheDev42/learn.dev42.co.uk/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=TheDev42/learn.dev42.co.uk" />
+</a>
