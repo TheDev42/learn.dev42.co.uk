@@ -2,17 +2,13 @@
 
 A list of resources I have found helpful!
 
-## [Encryption](./encryption)
-
-A list of encryption topics such as RSA, Diffie-Hellman, AES, TLS and more.
-
 ## [Networking](./networking)
 
 An overview of networking topics including the OSI model, Protocol and Networking Layers
 
-## [Hardware](./hardware)
+## [Computers](./computers)
 
-All about hardware
+An overview of computers and their hardware and software
 
 # Working Progress
 
@@ -20,6 +16,13 @@ All about hardware
 
 A list of practices that may help to improve your code flow and make your life easier
 
+## [Encryption](./encryption)
+
+A list of encryption topics such as RSA, Diffie-Hellman, AES, TLS and more.
+
+## [Hardware](./hardware)
+
+All about hardware
 
 
 
