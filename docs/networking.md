@@ -39,18 +39,20 @@ Transmission of raw bitstreams over physical mediums.
 ### Data Link Layer (L2)
 Link Layer Protocols: Protocols that work at the network interface level, facilitating data transfer between devices on the same local network, like Ethernet.
 
-- MAC
+- MAC (Media Access Control)
 
 - Ethernet
 
-- VLan
+- VLan (virtual Local Area Network)
+
+- VPN (Virtual Private Network)
 
 ### Network Layer (L3)
 Routing data packets through the network.
 
 - IP (Internet Protocol): Routes one packet from a source machine to a destination machine. IP wraps other higher level protocols such as TCP, UDP, etc, which handle routing packets to a specific application/port on the destination machine.
 
-- NAT
+- NAT (Network Address Translation)
 
 ### Transport Layer (L4)
 Transport Protocols: Protocols responsible for end-to-end communication, ensuring complete data transfer. Examples include TCP (Transmission Control Protocol) and UDP (User Datagram Protocol).
@@ -81,18 +83,18 @@ Application Protocols: These protocols provide services directly to end-users an
 - HTTP (Hypertext Transfer Protocol): Used to access web pages.
 
 - FTP (File Transfer Protocol): Used for transferring files between computers.
-
+  
+- HTTPS (Hypertext Transfer Protocol Secure): Encryption and authentication for requesting and sending secure websites using HTML.
+  
 - DHCP
 
 - DNS
 
-- HTTPS
-
 - NFS
 
-- POP3
+- POP3 (Post Office Protocol version 3): old
 
-- SMTP
+- SMTP (Simple Mail Transfer Protocol): Sends an email to an email server. In the name, its simple and is being retired in September 2025.
 
 - SNMP
 
@@ -102,11 +104,11 @@ Application Protocols: These protocols provide services directly to end-users an
 
 - SSH
 
-- IMAP
+- IMAP (Internet Message Access Protocol): Used by mail clients to manage and remove mail boxes and retrieve emails from there servers.
 
 ## OSI Model
 > [!NOTE]
-> We Dont Need To Know This For GCSE AQA!
+> We Don't Need To Know This For GCSE AQA!
 
 The Open Systems Interconnection (OSI) model describes seven layers that computer systems use to communicate over a network. The OSI model is divided into seven distinct layers, each with specific responsibilities, ranging from physical hardware connections to high-level application interactions.
 
