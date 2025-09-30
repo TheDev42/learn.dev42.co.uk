@@ -15,3 +15,9 @@ often a slower form of media storage
 
 ### NAS
 Network Attached Storage
+
+connection using the local network.
+uses the standard:
+windows: SMB/CIFS
+linux: NFS
+MacOS: AFP
