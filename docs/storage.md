@@ -9,6 +9,7 @@ The relevant block containing the pages must be copied to main memory and update
 
 ### HDD
 Hard Disk drive
+often a slower form of media storage
 
 ### Optical
 
