@@ -1,3 +1,5 @@
+## Storage
+### SSD
 NAND flash cells are organised in terms of pages and blocks. A page is a cell within a grid, and each row of cells is a block.
 SSDs become slower as they fill up. a new ssd will be fast as there are loads of empty pages that can be written to streight away.
 when the drive is full it has to copy files to its memory to right to an open page.
