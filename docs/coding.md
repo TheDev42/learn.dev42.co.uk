@@ -9,9 +9,9 @@ Translators are used to Convert high level and and assembaly language to low lev
 - Html
 - Java
 - C#
-- and many more
+and many more
 
-Low Level languages are: 
+#### Low Level languages are: 
 - Mashine Code
 - Assembaly Language
 
