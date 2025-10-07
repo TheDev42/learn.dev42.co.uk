@@ -4,7 +4,7 @@ A list of resources I have found helpful!
 
 ## [Networking](./networking)
 
-An overview of networking topics including the OSI model, Protocol and Networking Layers
+An overview of networking topics, including the OSI model, Protocol and Networking Layers
 
 ## [Computers](./computers)
 
@@ -28,7 +28,11 @@ All about hardware
 
 All about storage
 
-## Special Thanks To Contributors That Make This Posable!
+## [Coding](.coding)
+
+All about Coding
+
+## Special Thanks To Contributors That Make This Poseable!
 <a href="https://github.com/TheDev42/learn.dev42.co.uk/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=TheDev42/learn.dev42.co.uk" />
 </a>
