@@ -27,6 +27,8 @@ ByteCode
 it is used by C# and Java
 
 
+ByteCode is designed as an intermediate step in the compiling of low-level programming language. ByuteCode is designed for execution by a software interpreter or a virtual machine (VM)
+
 <p align="left">
-	<img src="[files/translator.jpg](https://www.researchgate.net/profile/Michael-Orlov-2/publication/318376879/figure/fig1/AS:544876321751040@1506920046971/Java-source-code-is-first-compiled-to-bytecode-and-subsequently-interpreted-or-executed.png)">
+	<img src="files/compiler.jpg">
 </p>
