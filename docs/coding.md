@@ -12,8 +12,8 @@ Translators are used to Convert high level and and assembaly language to low lev
 - and many more
 
 Low Level languages are: 
--Mashine Code
--Assembaly Language
+- Mashine Code
+- Assembaly Language
 
 
 <p align="left">
