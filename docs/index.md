@@ -28,7 +28,7 @@ All about storage
 
 All about Coding
 
-## Special Thanks To Contributors That Make This Poseable!
+## Special Thanks To Contributors That Make This Possible!
 <a href="https://github.com/TheDev42/learn.dev42.co.uk/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=TheDev42/learn.dev42.co.uk" />
 </a>
