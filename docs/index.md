@@ -28,7 +28,7 @@ All about hardware
 
 All about storage
 
-## [Coding](.coding)
+## [Coding](./coding)
 
 All about Coding
 
