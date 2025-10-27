@@ -24,13 +24,9 @@ All about hardware
 
 All about storage
 
-
 ## [Binery](./binery)
 
 All about storage
-
-
-## Special Thanks To Contributors That Make This Posable!
 
 ## [Coding](./coding)
 
