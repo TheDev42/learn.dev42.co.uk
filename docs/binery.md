@@ -26,3 +26,11 @@ best way to do this is to go from Hex to Binery then fromm Binery to Denery
 
 this is used for <ins>doubling or halfing</ins> the value. Use a binery left shift to <ins>double</ins> the number or a binery right shift to <ins>half it</ins>.
 
+using a binery <ins>left shift</ins> 11001010 would become 110010100 which is <ins>double 202 to make 404</ins>
+
+using a binery <ins>righ shift</ins> 11001010 would become 1100101 which is <ins>half of 202 to make 101</ins>
+
+if you right shift a binery number with an <ins>odd number</ins> then the number would be <ins>rounded down by one</ins>.
+10110101 would round down 1011010 which is from <ins>181 to become 90</ins>. it is slightly inacreut as you have lost the last bit causing the number to lose a value
+
+
