@@ -20,15 +20,24 @@ A list of encryption topics such as RSA, Diffie-Hellman, AES, TLS and more.
 
 All about hardware
 
-## [storage](./storage)
+## [Storage](./storage)
 
 All about storage
+
+
+## [Binery](./binery)
+
+All about storage
+
+
+## Special Thanks To Contributors That Make This Posable!
 
 ## [Coding](./coding)
 
 All about Coding
 
 ## Special Thanks To Contributors That Make This Possible!
+
 <a href="https://github.com/TheDev42/learn.dev42.co.uk/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=TheDev42/learn.dev42.co.uk" />
 </a>
