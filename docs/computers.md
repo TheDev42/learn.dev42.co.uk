@@ -9,7 +9,7 @@ A computer system consists of **hardware** and **software** that work together t
   - System Software - designed to <ins>run and maintain</ins> a computer system e.g. OS, utilities etc.
 
 ### General Purpose Computers:
-- Definition - designed to perform many tasks and functions
+- Definition - designed to perform many tasks and functions 
 - Examples - PCs, tablets, phones
 - Advantages - can perform <ins>a wide variety of tasks</ins>, more <ins>affordable</ins> for multiple uses, and they can be <ins>upgraded for new changes/needs</ins> by 
   being upgraded with new hardware/software
