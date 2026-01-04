@@ -32,6 +32,14 @@ All about storage
 
 All about Coding
 
+## [Data Representation](./Data_Representation)
+
+All about Data Representation
+
+## [architecture](./architecture)
+
+All about architecture
+
 ## Special Thanks To Contributors That Make This Possible!
 
 <a href="https://github.com/TheDev42/learn.dev42.co.uk/graphs/contributors">
