@@ -4,6 +4,6 @@
 
 Von Neumann vs Harvard
 
- Von Neumann uses one memory location for both instructions and data using a single bus to the cpu. this makes it simpler and cheaper
+- Von Neumann uses one memory location for both instructions and data using a single bus to the cpu. this makes it simpler and cheaper
 
-Harvard uses seperate 
+- Harvard uses seperate memory locations and buses to reansfer and store instructions and data. this allows simoltanious fetching of data making it faster but more expencive and complex
