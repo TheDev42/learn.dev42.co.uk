@@ -69,6 +69,11 @@ This is the brain of the computer as it <ins>processes all of the data and instr
 **Buses:**
 - <ins>Collection of wires</ins> used to transmit data between components of the CPU and the CPU system
 - A processor may have seperate buses for carrying data, instructions and memory addresses
+  - Address bus: Uni-Directonal. Carries addresses from the CPU to Memory and I/O devices
+
+  - Data Bus: Bi-Direconal. transfers actual data and instructions between computer components Like the CPU and memory
+
+  - Control bus: Bi-Direconal. Carries commands from the CPU to other devices in a computer. and used to receives status messages back.
 
 **Registers:**
 - Super quick memory to write into
@@ -78,6 +83,13 @@ This is the brain of the computer as it <ins>processes all of the data and instr
 **Cores:**
 - Each core can process an instruction independantly to the rest
 - <ins>More cores</ins> means <ins>more instructions</ins> can be processed at any one time
+
+
+**I/O Controllers**
+- an I/O or Input/Output controller is used to manage the Hardware components used by a computer. 
+- Items like: Keyboard, Mouse, Webcam and microphones are all Input devices.
+- Other items are: Speakers, Monitors and headphones are all output devices.
+
 
 ## Memory:
 
