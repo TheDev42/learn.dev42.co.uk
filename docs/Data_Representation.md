@@ -24,11 +24,3 @@ unicode is used almost everywhere. there is very few use cases to only use ascii
 
 
 
-# Computer organisation and architecture
-
-## Types of architecture
-
-Von Neumann vs Harvard
-
-## Components
-
