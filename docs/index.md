@@ -36,6 +36,10 @@ All about Coding
 
 All about Data Representation
 
+## [Data Structure](./Data_Structure)
+
+All about Data Structure
+
 ## [architecture](./architecture)
 
 All about architecture
