@@ -22,3 +22,11 @@ there are 3 diferent types:
 Enqueue - add new items to back
 Dequeue - remove items from front
 Peek - view the front item first
+
+
+# Hash tables
+
+data stored in pairs, one of which is a key
+
+# vectors
+
