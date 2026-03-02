@@ -30,3 +30,23 @@ data stored in pairs, one of which is a key
 
 # vectors
 
+
+NUMBERS? often a 1D array of data like coordinates and direction
+
+# Graphs
+
+a way of representing how data links together
+
+
+Nodes: represents entities
+Link/edge): relationship connections
+Directed Graph: Edges have a direction(arrow)
+Undirected Graph: Edges have no direction(no arrow)
+Weighted Graph: Edges have values 
+
+# Tree
+
+used to represent data and find orders
+
+use a list of data and if the first one is bigger than the left one then put that to the left. 
+do this with all the data to create the graph.

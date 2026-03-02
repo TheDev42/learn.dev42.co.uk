@@ -21,21 +21,5 @@ often using UTF-8 To ENCODE. it uses Hex numbers so uses the base 16 number set.
 
 unicode is used almost everywhere. there is very few use cases to only use ascii other than if storage is limmated to below 64mb or less than 8mb ram. as ascii has such a low ammount of characters. unicode also does emojies so is all around better
 
-# Graphs
 
-a way of representing how data links together
-
-
-Nodes: represents entities
-Link/edge): relationship connections
-Directed Graph: Edges have a direction(arrow)
-Undirected Graph: Edges have no direction(no arrow)
-Weighted Graph: Edges have values 
-
-# Tree
-
-used to represent data and find orders
-
-use a list of data and if the first one is bigger than the left one then put that to the left. 
-do this with all the data to create the graph.
 
