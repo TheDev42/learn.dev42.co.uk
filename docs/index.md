@@ -44,6 +44,10 @@ All about Data Structure
 
 All about architecture
 
+## [Algorithms](./algorithms)
+
+All about algorithms
+
 ## Special Thanks To Contributors That Make This Possible!
 
 <a href="https://github.com/TheDev42/learn.dev42.co.uk/graphs/contributors">
