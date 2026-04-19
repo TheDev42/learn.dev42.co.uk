@@ -44,7 +44,7 @@ All about Data Structure
 
 All about architecture
 
-## [Algorithms](./algorithms)
+## [Algorithms](./Algorithms)
 
 All about algorithms
 
