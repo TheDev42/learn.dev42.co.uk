@@ -7,7 +7,7 @@ Linear search - checkes a list in order till the item needed is found. is slow
 binery search - splits the ORDERED list in half and compaires sides. pickes the half list with the item in it and repeats
 
 ## Sort
-https://admin.dev42.co.uk/sort
+[https://admin.dev42.co.uk/sort](https://admin.dev42.co.uk/sort)
 
 bubble sort - LINK - compaires 2 values and moves the biggest one to the right. does this till a full run with no swaps
 
