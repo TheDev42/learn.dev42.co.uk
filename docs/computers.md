@@ -9,7 +9,7 @@ A computer system consists of **hardware** and **software** that work together t
   - System Software - designed to <ins>run and maintain</ins> a computer system e.g. OS, utilities etc.
 
 ### General Purpose Computers:
-- Definition - designed to perform many tasks and functions
+- Definition - designed to perform many tasks and functions 
 - Examples - PCs, tablets, phones
 - Advantages - can perform <ins>a wide variety of tasks</ins>, more <ins>affordable</ins> for multiple uses, and they can be <ins>upgraded for new changes/needs</ins> by 
   being upgraded with new hardware/software
@@ -69,6 +69,11 @@ This is the brain of the computer as it <ins>processes all of the data and instr
 **Buses:**
 - <ins>Collection of wires</ins> used to transmit data between components of the CPU and the CPU system
 - A processor may have seperate buses for carrying data, instructions and memory addresses
+  - Address bus: Uni-Directonal. Carries addresses from the CPU to Memory and I/O devices
+
+  - Data Bus: Bi-Direconal. transfers actual data and instructions between computer components Like the CPU and memory
+
+  - Control bus: Bi-Direconal. Carries commands from the CPU to other devices in a computer. and used to receives status messages back.
 
 **Registers:**
 - Super quick memory to write into
@@ -78,6 +83,13 @@ This is the brain of the computer as it <ins>processes all of the data and instr
 **Cores:**
 - Each core can process an instruction independantly to the rest
 - <ins>More cores</ins> means <ins>more instructions</ins> can be processed at any one time
+
+
+**I/O Controllers**
+- an I/O or Input/Output controller is used to manage the Hardware components used by a computer. 
+- Items like: Keyboard, Mouse, Webcam and microphones are all Input devices.
+- Other items are: Speakers, Monitors and headphones are all output devices.
+
 
 ## Memory:
 

@@ -46,6 +46,21 @@ All about the Outputs
 All about the Outputs
 
 
+## [Data Representation](./Data_Representation)
+
+All about Data Representation
+
+## [Data Structure](./Data_Structure)
+
+All about Data Structure
+
+## [architecture](./architecture)
+
+All about architecture
+
+## [Algorithms](./Algorithms)
+
+All about algorithms
 
 ## Special Thanks To Contributors That Make This Possible!
 
