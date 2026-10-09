@@ -127,3 +127,55 @@ The Transfer Control Protocol/Internet Protocol (TCP/IP) is older than the OSI m
 Other important differences:
 - TCP/IP is a functional model designed to solve specific communication problems, and which is based on specific, standard protocols. OSI is a generic, protocol-independent model intended to describe all forms of network communication.
 - In TCP/IP, most applications use all the layers, while in OSI simple applications do not use all seven layers. Only layers 1, 2 and 3 are mandatory to enable any data communication.
+
+
+## TCP/IP Model
+Transfer Control Protocol/Internet Protocol (TCP/IP)
+
+#### encapsulation
+This is where extra data is added to the original data, such as headers and trailers
+
+there are some protocols that require more info to be added to the end. these are trailers.
+together the header and the trailer encapsulate the payload(Data) 
+
+### Application
+Data from an application is encapsulated:
+The application layer works out what the best protocol would be best. these are what manage the communications between applications.
+The correct Protocol is added to the header, I.E. HTTPS or HTTP
+If required, a termination message(Trailer) is added at the end of the Payload
+
+### Transport
+Data is received from the Application layer as a large set of data. the job of the transport layer is to prepare it to be transmitted.
+
+ALL data including the protocol packets are broken up into packet chunks and assigned a packet number in the order of reconstruction. then assigns TCP or UTP for transmission.
+
+If the data packets are sent with TCP, if a packet is missing when being deconstructed then it is sent again.
+
+SOckets are the TCP end point. the consist of IP address and Port number. these persist throughout the transmission connection.
+
+### Network
+The segment from the Transport layer is encapsulated by the Internet protocol to create an IP Packet.
+Each IP packet is given a header containing multiple pieces of data. these assist with the delivery of data to the destination. 
+The two most important pieces of header data is the source and destination IP address.
+
+The source address is what was allocated to the computer that is sending the IP packet. The destination address will be looked up via a DNS server.
+
+
+### Link
+Link Layers are the physical connections, Protocols that work at the network interface level, facilitating data transfer between devices on the same local network, like Ethernet or 4G LTE. 
+
+the IP packet from the network layer are encapsulated in an ethernet frame. this is designed to be transported across a local network.
+
+the header of these ethernet frames contain the source and destination MAC address and a type of field to indicate what they are carrying. Each Network packet gets assigned both MAC addresses, even of they are going to the same destination.
+
+#### Common Physical Protocols:
+
+- MAC (Media Access Control)
+
+- Ethernet
+
+- VLan (virtual Local Area Network)
+
+- VPN (Virtual Private Network)
+
+- 4G LTE (Long Term Evolution)

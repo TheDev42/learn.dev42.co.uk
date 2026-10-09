@@ -7,20 +7,20 @@
 <ins>1011101</ins> would be split into <ins>101 1101</ins> as you work from right to left. the hex for that would be **5 D**
 
 
-## Binery to Denery
+## Binary to Denary
 
 With binery you **Always work from right to left** so from the right your first Binery number represents <ins>1</ins> then doubles every next value. A 4 bit number would represent 8 4 2 1 so 1010 would be 8 + 2 = 10 or 1100 would be 8 + 4 = 12
 
-## Hex to Denery
+## Hex to Denary
 
-best way to do this is to go from Hex to Binery then fromm Binery to Denery
+best way to do this is to go from Hex to Binary then fromm Binary to Denary
 
-## Binery Shift
+## Binary Shift
 
-this is used for **doubling or halfing** the value. Use a binery left shift to <ins>double</ins> the number or a binery right shift to <ins>half it</ins>.  
-using a binery <ins>left shift</ins> 11001010 would become 110010100 which is <ins>double 202 to make 404</ins>  
-using a binery <ins>righ shift</ins> 11001010 would become 1100101 which is <ins>half of 202 to make 101</ins>  
-if you right shift a binery number with an <ins>odd number</ins> then the number would be <ins>rounded down by one</ins>.  
+this is used for **doubling or halfing** the value. Use a binary left shift to <ins>double</ins> the number or a binary right shift to <ins>half it</ins>.  
+using a binary <ins>left shift</ins> 11001010 would become 110010100 which is <ins>double 202 to make 404</ins>  
+using a binary <ins>right shift</ins> 11001010 would become 1100101 which is <ins>half of 202 to make 101</ins>  
+if you right shift a binary number with an <ins>odd number</ins> then the number would be <ins>rounded down by one</ins>.  
 10110101 would round down 1011010 which is from <ins>181 to become 90</ins>. it is slightly inacreut as you have lost the last bit causing the number to lose a value  
 
 ## Unsigned fixed-point binery

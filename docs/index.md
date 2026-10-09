@@ -32,6 +32,20 @@ All about storage
 
 All about Coding
 
+## [Inputs](./inputs)
+
+All about the Inputs
+
+
+## [Outputs](./outputs)
+
+All about the Outputs
+
+## [Data Communication](./data_communication)
+
+All about the Outputs
+
+
 ## [Data Representation](./Data_Representation)
 
 All about Data Representation
