@@ -179,3 +179,27 @@ the header of these ethernet frames contain the source and destination MAC addre
 - VPN (Virtual Private Network)
 
 - 4G LTE (Long Term Evolution)
+
+
+## Client Server Interaction
+
+### Client to Server
+Client sends a Http or Https request to the Server. this is a passive server as it only listens on a port for a request, usually port 80/443. 
+The client has 5 diferent HTTP methords that it can use. Get, Push/Patch, Delete, Post. These are send in the HTTP Header.
+
+Each request and update needs a new header and the method to be sent again. if the client wants to keep the connection for a prolonged period of time then the client requests a HTTPS upgrade Websocket in its header. This open a WebSocket and this stays open till the connection is closed or the client hasn't sent data in a while.
+
+### Server to Client
+When responding to a request from a client, the server will return a JSON file back. along with sending any requested files, i.e HTML and CSS webfiles.
+The server may also request an update from the Database if there are non static files that need updating.
+
+### Webserver to Database Server
+Some systems use a database server, some dont. most likely a database will be on the same server as the webserver whereas a Database server will be connected thorough the network.
+
+The webserver requests updates from the Database server using CRUD - Create Request Update Delete. Then the database server connects to the database and uses: Insert, Select, Update, Delete. 
+
+#### DBMS
+DBMS is DataBase Management System and runs on a Database Server only.
+
+### Webserver to Database
+If the Webserver requests directly from a database it just uses: Insert, Select, Update, Delete. CRUD is only used as a translation between Webserver and Database server.
